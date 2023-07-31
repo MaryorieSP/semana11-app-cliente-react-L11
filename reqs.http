@@ -1,5 +1,5 @@
-@server = https://texai-crispy-enigma-j4q5xwg7735p95-8080.preview.app.github.dev
-@emp = {{server}}/api/employees
+@server = https://maryoriesp-redesigned-enigma-x59xw7qrwjjh6j97-8080.preview.app.github.dev
+@emp = {{server}}/api/instrumento
 ###
 GET {{emp}}
 ###
@@ -7,7 +7,7 @@ POST {{emp}}
 Content-Type: application/json
 
 {
-    "firstName": "Bilbo",
-    "lastName": "Baggins",
-    "description": "burglar"
+    "nombre": "Bateria",
+    "categoria": "Percusion",
+    "descripcion": "de 8 a 10 tambores con platillos"
 }
