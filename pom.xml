@@ -101,7 +101,7 @@
 				</plugin>
 				<!-- end::frontend-maven-plugin[] -->
 			</plugins>
-		</pluginManagement>		
+		</pluginManagement>				
 	</build>
 
 </project>

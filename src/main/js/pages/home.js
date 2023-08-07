@@ -1,7 +1,8 @@
 const React = require('react');
 const client = require('../client');
+const { Link} = require ('react-router-dom')
 
-class App extends React.Component {
+class PageHome extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { instrumentos: [], musicos: [] };
@@ -23,6 +24,7 @@ class App extends React.Component {
 				<InstrumentoList instrumentos={this.state.instrumentos} />
 				<Titulo entidad="Musicos" emoji="🎵" />
 				<MusicoList musicos={this.state.musicos} />
+				<Link to='/nuevo-musico'>Nuevo Musico</Link>
 			</>
 		)
 	}
@@ -99,4 +101,4 @@ class Musico extends React.Component {
 	}
 }
 
-module.exports = App;
+module.exports=PageHome;
