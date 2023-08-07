@@ -24,7 +24,9 @@ const PageNuevoMusico = () => {
         <h1>Nuevo Musico</h1>
         <form onSubmit={handleSubmit}>
             <label>Nombre</label>
+            <br/>
             <input type="text" id="nombre" name="nombre" onChange={(e)=>setNombre(e.target.value)} />
+            <br/>
             <input type="submit" value="Nuevo Músico" />
         </form>
         <Link to='/'>Volver</Link>

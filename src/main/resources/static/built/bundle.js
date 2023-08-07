@@ -41078,7 +41078,7 @@ var PageInstrumento = function PageInstrumento() {
     onChange: function onChange(e) {
       return setDescripcion(e.target.value);
     }
-  }), /*#__PURE__*/React.createElement("input", {
+  }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("input", {
     type: "submit",
     value: "Nuevo Instrumento"
   })), /*#__PURE__*/React.createElement(Link, {
@@ -41130,14 +41130,14 @@ var PageNuevoMusico = function PageNuevoMusico() {
   };
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Nuevo Musico"), /*#__PURE__*/React.createElement("form", {
     onSubmit: handleSubmit
-  }, /*#__PURE__*/React.createElement("label", null, "Nombre"), /*#__PURE__*/React.createElement("input", {
+  }, /*#__PURE__*/React.createElement("label", null, "Nombre"), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("input", {
     type: "text",
     id: "nombre",
     name: "nombre",
     onChange: function onChange(e) {
       return setNombre(e.target.value);
     }
-  }), /*#__PURE__*/React.createElement("input", {
+  }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("input", {
     type: "submit",
     value: "Nuevo M\xFAsico"
   })), /*#__PURE__*/React.createElement(Link, {

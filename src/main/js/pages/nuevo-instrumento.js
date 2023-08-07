@@ -38,6 +38,7 @@ const PageInstrumento=()=>{
             <label>Descripcion</label>
             <br/>
             <input type="text" id="descripcion" name="descripcion" onChange={(e)=>setDescripcion(e.target.value)} />
+            <br/>
             <input type="submit" value="Nuevo Instrumento" />
         </form>
         <Link to='/'>Volver</Link>
