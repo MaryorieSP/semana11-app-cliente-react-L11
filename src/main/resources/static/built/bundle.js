@@ -40796,6 +40796,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var _require = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js"),
+  createBrowserRouter = _require.createBrowserRouter,
+  RouterProvider = _require.RouterProvider;
 var PageHome = __webpack_require__(/*! ./pages/home */ "./src/main/js/pages/home.js");
 var PageNuevoMusico = __webpack_require__(/*! ./pages/nuevo-musico */ "./src/main/js/pages/nuevo-musico.js");
 var router = createBrowserRouter([{

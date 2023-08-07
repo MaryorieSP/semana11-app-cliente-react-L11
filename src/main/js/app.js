@@ -1,5 +1,6 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
+const {createBrowserRouter, RouterProvider} = require('react-router-dom');
 
 const PageHome = require('./pages/home');
 const PageNuevoMusico = require('./pages/nuevo-musico');
